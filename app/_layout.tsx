@@ -23,7 +23,7 @@ export default function Layout() {
             fontSize: 35,
           },
           headerTitleAlign: "center",
-          headerShown: true,
+          headerShown: false,
         }}
       >
         <Stack.Screen name="NextStep" component={ChatScreen} />
